@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+    color:#F6F6F6;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    padding:2% 0% 0% 12%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 5rem;
+}
+
+.cabecalho__menu__link {
+    color: #AD8C45;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.cabecalho__menu__link:hover {
+    text-shadow: 0 0 1.3rem #AD8C45;
+    color:aliceblue
+}
+
+.apresentacao {
+    padding: 8% 12%;
+    gap:50px;
+}
+
+.apresentacao__cima {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.apresentacao__tecnologias, .apresentacao__formacao, .apresentacao__competencias, .apresentacao__idiomas {
+    text-align: center;
+    border: 0.18rem solid #AD8C45;
+    border-radius: 1rem;
+    width: 45%;
+    padding: 1rem;
+    height: 80px;
+}
+
+.apresentacao__tecnologias:hover, .apresentacao__formacao:hover, .apresentacao__competencias:hover, .apresentacao__idiomas:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 1.3rem #AD8C45;
+    border-color:aliceblue;
+}
+
+.apresentacao__baixo {
+    display:flex;
+    justify-content: center;
+    padding-top: 9%;
+    gap: 10%;
+}
+
+.titulos {
+    font-family: 'Krona One', sans-serif;
+    color: #AD8C45;
+    padding-bottom: 0.5rem;
+    font-size: 1.125rem;
+}
+
+.listas {
+    list-style: none;
+}
+
+.listas__item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.rodape {
+    color: #000000;
+    background-color: #AD8C45;
+    padding: 1.5rem;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding:5%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+    
+    .apresentacao__cima, .apresentacao__baixo {
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 20px;
+    }
+
+    .apresentacao__tecnologias, .apresentacao__formacao, .apresentacao__competencias, .apresentacao__idiomas {
+        width: auto;
+    }
+}
