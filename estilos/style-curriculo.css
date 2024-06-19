@@ -43,7 +43,7 @@ body {
 }
 
 .apresentacao {
-    padding: 13% 12%;
+    padding: 11% 12%;
     gap:50px;
     height: auto;
 }
@@ -94,16 +94,6 @@ body {
 }
 
 .rodape {
-    /* color: #000000;
-    background-color: #AD8C45;
-    padding: 1.5rem;
-    text-align: center;
-    font-family:'Montserrat', sans-serif;
-    font-size: 1.3rem;
-    font-weight: 400;
-    bottom: 0;
-    position:fixed;
-    width: 100%; */
     color: #000000;
     background-color: #AD8C45;
     padding: 1.5rem;
